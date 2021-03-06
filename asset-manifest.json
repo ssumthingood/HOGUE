@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/HOGUE/static/js/main.f3f143fa.chunk.js",
-    "main.js.map": "/HOGUE/static/js/main.f3f143fa.chunk.js.map",
+    "main.js": "/HOGUE/static/js/main.f49c23bc.chunk.js",
+    "main.js.map": "/HOGUE/static/js/main.f49c23bc.chunk.js.map",
     "runtime-main.js": "/HOGUE/static/js/runtime-main.1df3235e.js",
     "runtime-main.js.map": "/HOGUE/static/js/runtime-main.1df3235e.js.map",
-    "static/js/2.1e99cd72.chunk.js": "/HOGUE/static/js/2.1e99cd72.chunk.js",
-    "static/js/2.1e99cd72.chunk.js.map": "/HOGUE/static/js/2.1e99cd72.chunk.js.map",
+    "static/css/2.150d169a.chunk.css": "/HOGUE/static/css/2.150d169a.chunk.css",
+    "static/js/2.bbe37ab9.chunk.js": "/HOGUE/static/js/2.bbe37ab9.chunk.js",
+    "static/js/2.bbe37ab9.chunk.js.map": "/HOGUE/static/js/2.bbe37ab9.chunk.js.map",
     "index.html": "/HOGUE/index.html",
-    "static/js/2.1e99cd72.chunk.js.LICENSE.txt": "/HOGUE/static/js/2.1e99cd72.chunk.js.LICENSE.txt"
+    "static/css/2.150d169a.chunk.css.map": "/HOGUE/static/css/2.150d169a.chunk.css.map",
+    "static/js/2.bbe37ab9.chunk.js.LICENSE.txt": "/HOGUE/static/js/2.bbe37ab9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1df3235e.js",
-    "static/js/2.1e99cd72.chunk.js",
-    "static/js/main.f3f143fa.chunk.js"
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.bbe37ab9.chunk.js",
+    "static/js/main.f49c23bc.chunk.js"
   ]
 }
