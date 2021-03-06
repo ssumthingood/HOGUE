@@ -35,7 +35,7 @@ const Item = styled.li`
     }
 `;
 
-const Slink = styled(Link)`
+const SLink = styled(Link)`
 
 `;
 
@@ -59,6 +59,7 @@ const Third = styled.div`
     height:46px;
     line-height:46px;
 `;
+
 class Header extends React.Component{
     constructor(props){
         super(props);
@@ -88,14 +89,14 @@ class Header extends React.Component{
         <HeaderMain>
         <HeadWrapper>
         <First>first</First>
-        <Second><a href="/">HOGUE</a></Second>
+        <Second><GoHome to="/">HOGUE</GoHome></Second>
         <Third>
             <List>
-                <Item current={this.state.pathname==="/category/fashion"}><a id='0' href="/category/fashion">FASHION</a></Item>
+                <Item current={this.state.pathname==="/category/fashion"}><SLink id='0' to="/category/fashion">FASHION</SLink></Item>
                 {/* 답은 this.state 에 있었다. */}
-                <Item current={this.state.pathname==="/category/beauty"}><a id='1' href="/category/beauty">BEAUTY</a></Item>
-                <Item current={this.state.pathname==="/category/living"}><a id='2' href="/category/living">LIVING</a></Item>
-                <Item current={this.state.pathname==="/category/people"}><a id='3' href="/category/people">PEOPLE</a></Item>
+                <Item current={this.state.pathname==="/category/beauty"}><SLink id='1' to="/category/beauty">BEAUTY</SLink></Item>
+                <Item current={this.state.pathname==="/category/living"}><SLink id='2' to="/category/living">LIVING</SLink></Item>
+                <Item current={this.state.pathname==="/category/people"}><SLink id='3' to="/category/people">PEOPLE</SLink></Item>
                {/* SLink사용해서 새로고침없이 category의 내용이 바뀌는 걸 나타내는 방법은 없을까?(컴포넌트만 리렌더링하는 방법은?)  */}
             </List>
         </Third>
